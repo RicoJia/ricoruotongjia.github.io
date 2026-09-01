@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Math - Stats Basics Recap
-subtitle: Basic Statistics Concepts, Regression, Distributions, Covariance & Correlation, Bessel Correction
-date: '2017-02-04 13:19'
-header-img: "img/bg-material.jpg"
+subtitle: Basic Statistics Concepts, Regression, Distributions, Covariance & Correlation, Bessel Correction, box filter
+date: 2017-02-04 13:19
+header-img: img/bg-material.jpg
 tags:
-    - Math
+  - Math
 ---
 
 ## Basic Statistics Concepts
@@ -269,3 +269,7 @@ $$
 \end{aligned}
 \end{gather*}
 $$
+
+## Box Filter
+
+a box filter is a same-size local average, one output value per input pixel, not a downsample

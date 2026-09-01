@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Deep Learning - Transformer Series 3 - Multi-Head and Self Attention
-date: '2022-03-27 13:19'
+date: '2022-03-28 13:19'
 subtitle: Multi-Head Attention, Self Attention, Comparison of Self Attention Against CNN, RNN
 comments: true
 header-img: "img/home-bg-art.jpg"

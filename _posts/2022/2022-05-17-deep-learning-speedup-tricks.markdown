@@ -11,6 +11,10 @@ tags:
 
 ## General Speed-Up Tricks
 
+- Data loading tricks:
+ 	- compared to `npz` ,`npy` is faster to load during training because it uses contiguous disk memory and support `mmap`
+ 	- use json for boxes with labels.
+  		- JSONL means **JSON Lines**. Each line is one independent JSON object
 - If you look to use albumentations for augmentation, sticking to the `[batch, H, W, Channels]` (channel last) could make data loading faster
 
 - `tensor.contiguous()` creates a new tensor that uses contiguous blocks of memory. You might need this after `permute()`, `view()`, `transpose()`, where the underlying memory is not contiguous.

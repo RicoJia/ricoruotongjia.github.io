@@ -8,6 +8,7 @@ header-img: img/home-bg-art.jpg
 tags:
   - Deep Learning
 ---
+**Equivariant** means that ==if you change an input by a specific rule or symmetry (like moving or rotating it), the output changes in a matching, predictable way==. Convolution is equivarent
 
 ## 1D Convolution Example
 

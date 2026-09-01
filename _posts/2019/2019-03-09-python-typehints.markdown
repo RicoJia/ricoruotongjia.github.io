@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Python - Type hints
-date: '2019-03-11 13:19'
+date: 2019-03-09 13:19
 subtitle: annotation
 comments: true
-header-img: "img/post-bg-2015.jpg"
+header-img: img/post-bg-2015.jpg
 tags:
-    - Python
+  - Python
 ---
 
 ## `from __future__ import annotations`
